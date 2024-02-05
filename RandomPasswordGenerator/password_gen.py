@@ -1,4 +1,4 @@
-import secrets
+import random
 import string
 
 def Password_gen(length: int) -> str:
@@ -8,6 +8,4 @@ def Password_gen(length: int) -> str:
 
     combination = letters + digits + special_chars
 
-    psswd = ''.join(secrets.choice(combination) for _ in range(length))
-
-    return psswd
+    return "".join(random.sample(combination, length))
