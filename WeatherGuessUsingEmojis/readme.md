@@ -2,12 +2,12 @@
 
 Prints an emoji based on the given temperature and rain conditions.
 
-    - Parameters:
+- Parameters:
         
-        temperature (int): The temperature in degrees Celsius.
+  temperature (int): The temperature in degrees Celsius.
         
-        is_raining (bool): True if it is raining, False otherwise.
+  is_raining (bool): True if it is raining, False otherwise.
 
-    - Returns:
+- Returns:
         
-         None
+  None
