@@ -1,4 +1,5 @@
 # Py-Ismol-Projects:
+
 A curated selection of Python projects, complete with source code, suitable for both beginners and advanced Python developers. 
 
 Each project comes with a detailed explanation, making it easy for learners to understand the concepts and techniques used.
