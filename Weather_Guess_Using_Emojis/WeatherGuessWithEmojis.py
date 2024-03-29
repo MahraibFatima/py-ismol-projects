@@ -1,6 +1,6 @@
 import emoji
 
-def print_weather_emoji(temperature: str, is_raining: bool) -> None
+def print_weather_emoji(temperature: str, is_raining: bool) -> None:
     if temperature > 30:
         if is_raining:
             print(emoji.emojize(":cloud_with_rain: It's hot and raining!"))
@@ -16,3 +16,6 @@ def print_weather_emoji(temperature: str, is_raining: bool) -> None
             print(emoji.emojize(":cloud_with_rain: It's cool and raining."))
         else:
             print(emoji.emojize(":wind_face: It's cool and windy."))
+
+# Example usage:
+print_weather_emoji(25, True)  # Prints a warm and raining emoji
